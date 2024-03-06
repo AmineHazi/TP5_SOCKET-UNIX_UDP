@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "pthread.h": "c",
+        "un.h": "c",
+        "server.h": "c",
+        "string.h": "c",
+        "signum-arch.h": "c",
+        "sigcontext.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
