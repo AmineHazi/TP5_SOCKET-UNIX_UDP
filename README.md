@@ -23,6 +23,16 @@ make
 ./bin/client
 ```
 
+###Arrêter les clients et le serveur
+
+Pour arrêter l'exécution des clients, il suffit d'envoyer un signal de terminaison, tel que CTRL-D, dans le terminal du client.
+Pour le serveur, un script est fourni :
+
+```bash
+chmod +x stop_server.sh
+./stop_server.sh
+```
+
 ### Supprimer les logs et les fichiers temporaires
 
 Pour supprimer les logs et les fichiers temporaires, il y a les règles clean et cleanlogs dans le `Makefile`. Pour les utiliser, on utilise les commandes suivantes :
