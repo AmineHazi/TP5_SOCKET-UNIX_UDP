@@ -23,7 +23,7 @@ make
 ./bin/client
 ```
 
-###Arrêter les clients et le serveur
+### Arrêter les clients et le serveur
 
 Pour arrêter l'exécution des clients, il suffit d'envoyer un signal de terminaison, tel que CTRL-D, dans le terminal du client.
 Pour le serveur, un script est fourni :
